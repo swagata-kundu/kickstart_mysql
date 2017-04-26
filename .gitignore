@@ -1,0 +1,8 @@
+.vscode/
+node_modules/
+excep*.log
+uploads/
+typings/
+logs/
+.idea/
+*.log

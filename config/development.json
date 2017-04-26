@@ -1,0 +1,33 @@
+{
+    "port": 5100,
+    "db": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "password",
+        "database": "kickstart_user",
+        "connectionLimit": 10,
+        "waitForConnections": true,
+        "dateStrings": true,
+        "multipleStatements": true
+    },
+    "mailFrom": "info@yourcitynightout.com",
+    "mailCredential": {
+        "service": "gmail",
+        "auth": {
+            "user": "mynightout.dev",
+            "pass": "hrhk@1234"
+        },
+        "tls": {
+            "rejectUnauthorized": false
+        }
+
+    },
+    "aws": {
+        "key": {
+            "accessKeyId": "AKIAIL3ZPXXKMF7NP3JA",
+            "secretAccessKey": "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",
+            "region": "us-east-1"
+        }
+    }
+}

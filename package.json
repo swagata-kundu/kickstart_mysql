@@ -1,0 +1,36 @@
+{
+  "name": "kickstart_mysql",
+  "version": "1.0.0",
+  "description": "Boiler plate for internal mysql_based project implementation. It has built in user registration process implemented",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Mysql",
+    "User",
+    "boilerplate"
+  ],
+  "author": "SKK",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.45.0",
+    "body-parser": "^1.17.1",
+    "config": "^1.25.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "express-useragent": "^1.0.7",
+    "lodash": "^4.17.4",
+    "md5": "^2.2.1",
+    "moment": "^2.18.1",
+    "morgan": "^1.8.1",
+    "multer": "^1.3.0",
+    "mysql": "^2.13.0",
+    "node-uuid": "^1.4.8",
+    "nodemailer": "^2.3.2",
+    "nodemailer-html-to-text": "^2.1.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "randomstring": "^1.1.5",
+    "winston": "^2.3.1"
+  }
+}
